@@ -1,0 +1,261 @@
+html{
+  min-height: 100%;
+}
+@font-face {
+  font-family: face;
+  src: url("/blogr-landing-page-main/font/Overpass-Regular.ttf");
+}
+body{
+ font-family: face;
+  background: linear-gradient(hsl(237, 17%, 21),hsl(237, 23%, 32%));
+  Font-size: 16px;
+}
+
+.attribution
+ { font-size: 11px; text-align: center; }
+
+.attribution a 
+{ color: hsl(228, 45%, 44%); }
+.header{
+background-image: url("/blogr-landing-page-main/images/bg-pattern-intro.svg") !important;
+background-size:100vw;
+background-position: center;
+background-repeat:no-repeat;
+background-color: hsl(13, 100%, 72%);
+height: 50vh;
+border-bottom-left-radius: 50px;
+padding-top: 20px;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link {
+  color: azure;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+  color: azure;
+}
+.nav-link {
+  color: azure;
+}
+.btn-light{
+  background-color: whitesmoke;
+  border: none;
+  color: hsl(355, 100%, 74%);
+  border-radius: 15px;
+}
+.btn-light:hover{
+  background-color: hsl(355, 100%, 74%);
+  color: whitesmoke;
+}
+.container-fluid .navbar-brand{
+  color: whitesmoke !important;
+}
+.head{
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.btn-danger{
+  background-color: whitesmoke;
+  color: hsl(355, 100%, 74%);
+  border-radius: 30px;
+  border: whitesmoke;
+
+}
+.btn-danger:hover{
+  background-color: hsl(355, 100%, 74%);
+  color: whitesmoke;
+}
+.head small{
+  color: rgb(221, 218, 218);
+}
+.design{
+  margin-top: 5rem;
+}
+.design-text{
+  padding: 20px;
+}
+.design-img{
+  position: relative;
+  top: -120px;
+}
+.design-img2{
+  display: none;
+}
+.design-text1{
+  margin-top: 6rem;
+}
+.design-text2{
+  margin-top: 4rem;
+  padding: 10px;
+}
+.container .design-text h4{
+font-weight: bolder;
+}
+.container .design-text p{
+  padding: 10px;
+}
+.phone{
+  background:hsl(237, 23%, 32%);
+  height: 60vh;
+  border-radius: 0px 50px 0px 50px;
+  background-image: url("/blogr-landing-page-main/images/bg-pattern-circles.svg");
+  background-size: 100vh;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.phone-img{
+  position: relative;
+  top:-70px;
+  
+}
+.phone-text{
+  color: white;
+  justify-content: center;
+  margin-top: 7rem;
+}
+.laptop{
+  margin-top: 5rem;
+}
+.laptop-img{
+  position: relative;
+  left: -390px;
+}
+.laptop-img2{
+  display: none;
+}
+.laptop-text1{
+  margin-top: 12rem;
+}
+.laptop-text2{
+  margin-top: 3rem;
+}
+.container .laptop-text h4{
+  font-weight: bolder;
+  }
+  .footer{
+    margin-top: 4rem;
+    color: white;
+    background-color:hsl(240, 10%, 16%);
+    padding: 30px;
+    border-radius: 0px 50px 0px 0px;
+  }
+  .container ul{
+    list-style: none;
+    color: white;
+  }
+  .container li a{
+    color: white !important;
+    text-decoration: none;
+  }
+  .container li a:hover{
+    color: white !important;
+   text-decoration: underline;
+  }
+
+
+  /*media view*/
+  @media(max-width: 375px){
+    header{
+      background-image: url("/blogr-landing-page-main/images/bg-pattern-intro.svg") !important;
+      background-size:100vw;
+      background-position: top;
+      background-repeat:no-repeat;
+      background-color: hsl(13, 100%, 72%);
+      height: 100%;
+      border-bottom-left-radius: 50px;
+      padding-top: 20px;
+      }
+      .dropdown-item {
+        color: rgb(10, 10, 10) !important;
+        text-align: center !important;
+        background-color: rgb(230, 224, 224);
+      }
+      .dropdown .active{
+        color: rgb(10, 10, 10) !important;
+      
+      }
+      .dropdown{
+        color: rgb(10, 10, 10) !important;
+      
+      }
+    .design .container h1{
+      margin-bottom: 2rem;
+    }
+    .container .design-text h1{
+      font-weight: bolder;
+      margin-bottom: .1rem;
+      }
+    .design-img{
+     display: none;
+    }
+    .design-img2{
+      display: flex;
+      justify-content: center;
+    }
+    .design-text1{
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .design-text2{
+      margin-top: 1rem;
+      padding: 10px;
+      margin-bottom: 10rem;
+      text-align: center;
+    }
+    .phone{
+      background:rgb(63, 65, 100);
+      height: 100vh;
+      width: 100%;
+      border-radius: 0px 50px 0px 50px;
+      background-image: url("/blogr-landing-page-main/images/bg-pattern-circles.svg");
+      background-size: 60vh;
+      background-position: top;
+      background-repeat: no-repeat;
+      
+    }
+    .phone-img{
+      position: relative;
+      top:-150px;
+      align-self: center;
+      width: 100% !important;
+      height: 100% !important;
+      
+    }
+    .phone-text{
+      position: relative;
+      color: white;
+      top:-250px;
+      text-align: center;
+      left: 50px;
+    }
+    .laptop{
+      text-align: center;
+    }
+    .laptop-text1{
+      margin-top: 0;
+    }
+    .laptop-img{
+      display: none;
+    }
+    .laptop-img2{
+      display:flex;
+     justify-content: center;
+    }
+    .footer{
+      text-align: center;
+    }
+    .footer .container ul h4{
+      margin-bottom: 2rem;
+      font-weight: 600;
+      font-size: 40px;
+    }
+    .footer .container ul h6{
+      margin-bottom: 1rem;
+      font-weight: 600;
+      font-size: 20px;
+    }
+    .footer .container ul li{
+      margin-bottom: .5rem;
+      font-size: 16px;
+      font-weight: lighter;
+    }
+  }
