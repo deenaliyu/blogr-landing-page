@@ -3,12 +3,13 @@ html{
 }
 @font-face {
   font-family: face;
-  src: url("/blogr-landing-page-main/font/Overpass-Regular.ttf");
+  src: url("../font/Overpass-Regular.ttf");
 }
 body{
  font-family: face;
   background: linear-gradient(hsl(237, 17%, 21),hsl(237, 23%, 32%));
   Font-size: 16px;
+  overflow-x: hidden;
 }
 
 .attribution
@@ -17,7 +18,7 @@ body{
 .attribution a 
 { color: hsl(228, 45%, 44%); }
 .header{
-background-image: url("/blogr-landing-page-main/images/bg-pattern-intro.svg") !important;
+background-image: url("../images/bg-pattern-intro.svg") !important;
 background-size:100vw;
 background-position: center;
 background-repeat:no-repeat;
@@ -258,4 +259,8 @@ font-weight: bolder;
       font-size: 16px;
       font-weight: lighter;
     }
+    body{
+      
+       overflow-x:auto;
+     }
   }
